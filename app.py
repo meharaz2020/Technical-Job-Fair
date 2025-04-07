@@ -12,7 +12,7 @@ import plotly.express as px
 import io
 
 # PostgreSQL database connection string using SQLAlchemy
-db_url = "postgresql://bumeharaz:nYAifKg7cKo93FwvcxSHDaJmeh0oMFH6@dpg-cummh65svqrc73fi5fc0-a.oregon-postgres.render.com/dbname_dk38"
+db_url = "postgresql://bumeharaz:22dgx1hJ7YD7i5JLxdCgePaGGgpjSIEI@dpg-cvpnc7pr0fns7384f250-a.oregon-postgres.render.com/dbname_8ftz"
 
 # Create engine for SQLAlchemy
 engine = create_engine(db_url)
@@ -154,7 +154,7 @@ app.layout = html.Div(id='main-container', style={
         'margin': '10px',
     }, children=[
         html.Img(
-            src='https://bdjobs.com/images/bdjobs-chakri-mela-chef-feb-2025.svg',
+            src='https://www.bdjobs.com/jobfair/new_reg/images/bdjobs-chakri-mela.svg',
             style={
                 'height': 'auto',
                 'maxWidth': '120px',
@@ -162,7 +162,7 @@ app.layout = html.Div(id='main-container', style={
                 'animation': 'pulse 2s infinite ease-in-out',
             }
         ),
-        html.H1('HOSPITALITY & CHEF JOB FAIR', id='title-text', style={
+        html.H1('Technical Job Fair', id='title-text', style={
             'textAlign': 'center',
             'flex': '1',
             'fontSize': 'clamp(18px, 3vw, 32px)',
@@ -402,8 +402,8 @@ app.clientside_callback(
     function(trigger) {
         function updateTimer() {
             try {
-                const eventTime = new Date(2025, 1, 26, 9, 0, 0);
-                const eventEndTime = new Date(2025, 1, 26, 16, 0, 0);
+                const eventTime = new Date(2025, 3, 23, 9, 0, 0);
+                const eventEndTime = new Date(2025, 3, 23, 16, 0, 0);
                 const now = new Date();
                 let countdownText = "";
                 let fairTimeText = "";
