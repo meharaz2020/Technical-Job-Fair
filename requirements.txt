@@ -1,0 +1,12 @@
+dash
+dash-bootstrap-components
+dash-daq
+dash-table
+plotly
+pandas
+sqlalchemy
+psycopg2-binary
+gunicorn
+dash-daq
+dash-extensions
+xlsxwriter
